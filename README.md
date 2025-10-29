@@ -1,13 +1,14 @@
-# compose-nginx-flask-redis
+# Flask + Redis + Nginx (Docker Compose Stack)
 
-Docker Compose stack: **Flask** app + **Redis** + **Nginx** reverse proxy.
+This project demonstrates a production-style **Docker Compose** stack running:
+- A Python **Flask** web app  
+- A **Redis** key-value store  
+- An **Nginx** reverse proxy  
 
-## Run
+Each service runs in its own container, showing how DevOps engineers can orchestrate multi-service environments.
 
+---
+
+## 🚀 Quick Start
 ```bash
 docker compose up --build
-# App via Nginx:
-#   http://localhost:8080/
-# App direct:
-#   http://localhost:8000/
-```
